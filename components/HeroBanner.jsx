@@ -8,8 +8,8 @@ const HeroBanner = ({ heroBanner }) => {
     <div className="hero-banner-container">
       <div>
         <p className="beats-solo"></p>
-        <h3>Alles zum</h3>
-        <h1>SOIL FOOD WEB</h1>
+        <h3>prints, gifts, clothes...</h3>
+        <h1>Gallery Good</h1>
         <image src='../public/images/img-11.JPG' />
         <div>
           <Link href={`/tutorials`}>

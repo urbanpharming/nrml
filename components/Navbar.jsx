@@ -11,19 +11,19 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Gallery Good</Link>
+        <Link href="/">Urban Pharming</Link>
       </p>
 
       <p className="products">
-        <Link href="/products">Produkte</Link>
+        <Link href="/products"></Link>
       </p>
 
       <p className="tutorials">
-        <Link href="/tutorials">Tutorials</Link>
+        <Link href="/tutorials"></Link>
       </p>
 
       <p className="forum">
-        <Link href="/forum">Forum</Link>
+        <Link href="/forum"></Link>
       </p>
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>

@@ -14,17 +14,6 @@ const Navbar = () => {
         <Link href="/">Urban Pharming</Link>
       </p>
 
-      <p className="products">
-        <Link href="/products"></Link>
-      </p>
-
-      <p className="tutorials">
-        <Link href="/tutorials"></Link>
-      </p>
-
-      <p className="forum">
-        <Link href="/forum"></Link>
-      </p>
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShoppingCart />
